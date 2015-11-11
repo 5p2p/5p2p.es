@@ -19,23 +19,27 @@
 
 .header{
   height: 4rem;
+  line-height: 4rem;
   img.logo {
     float: left;
-    // display: block;
-    // margin: 3.5rem 2.5rem;
     height: 6rem;
     z-index: 10;
-
   }
-}
-
-.right-off-canvas-toggle {
-    float: right;
-  .menu {
-    display: inline-block;
+  ul{}
+  li{
     line-height: 4rem;
-    // margin: 3.5rem 2.5rem;
-  }  
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 1rem;
+    font-weight: bold;
+  }
+  .menu{
+    color: white;
+    background: #323237;
+  }
+  .menu a {
+    color: white;
+  }
 }
 
 .move-left .exit-off-canvas {

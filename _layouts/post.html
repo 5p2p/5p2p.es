@@ -25,10 +25,10 @@
 
   <nav class="header">
     <a class="" href="{{site.url}}"><img class="logo" src="{{site.baseurl}}{{site.logo}}" alt="logo" /></a>
-    <div  class="right-off-canvas-toggle">
-    <span>5PANI2PESCI</span>
-    <a href="#" ><div class="menu"> MENU</div></a>
-    </div>
+    <ul class="right">
+      <li class="">5PANI2PESCI</li>
+      <li class="menu right-off-canvas-toggle"><a class="" href="#" >MENU</a></li>
+    </ul>
   </nav>
     <!-- Off Canvas Menu -->
     <aside class="right-off-canvas-menu">
@@ -55,10 +55,7 @@
   <!-- close the off-canvas menu -->
   <a class="exit-off-canvas"></a>
 
-<div class="clear-both"></div>
-
-
-    <div class="row">
+    <div class="row clearfix">
       <div class="columns large-12">
         {{content}}
       </div>
