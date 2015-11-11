@@ -1,0 +1,19 @@
+
+
+<div class="postBottom hideOnPrint tophr">
+    <!--hide on index, show on permalink-->
+    <h3><a href="{{site.url}}">Il Matrimonio Francescano</a></h3>
+</div>
+<div class="bottom hideOnPrint">
+    <!--Links-->
+    <div id="bottomLinks">
+        {% for page in site.footer_menu %} <a href=
+        "{{page.href}}">{{page.title}}</a> 
+        {% endfor %}
+    </div><!--Blurb-->
+    <div id="bottomBlurb">
+        <p class="powered">Crafted with <i class=
+        "fa fa-heart withlove"></i> by <a href=
+        "http://5p2p.it">5pani2pesci</a></p>
+    </div>
+</div>

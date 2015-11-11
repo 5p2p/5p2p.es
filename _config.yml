@@ -1,0 +1,91 @@
+# ---------------------------------------------------------
+# Blog infos
+# ---------------------------------------------------------
+description: 5p2p en español
+metadata: [matrimonio, cristiano, amor]
+url: http://5p2p.es
+
+# ---------------------------------------------------------
+# Blog basic design
+# ---------------------------------------------------------
+logo:    /images/logo/logo-5p2p-128.png
+favicon: /images/logo/logo-5p2p-64.png
+header:  /images/header/header.png # landing page header
+fb_img:  /images/header/header.png # default post header
+
+# ---------------------------------------------------------
+# Authors
+# ---------------------------------------------------------
+authors:
+
+    - name: ruvido
+      display: Francesco
+
+    - name: alescanca
+      display: Alessandra
+
+    - name: guest
+      display: Guest # da cambiare!!
+
+# ---------------------------------------------------------
+# Menus
+# ---------------------------------------------------------
+menu:
+
+  - title: "Articoli"
+    href: "/articulos"
+
+  - title: "Video"
+    href: "/video"
+
+  - title: "Chi siamo"
+    href: "/chi-siamo"
+
+  - title: "Donazioni"
+    href: "/donazioni"
+
+  # - title: "Libri consigliati"
+  #   href: "/libros"
+
+  # - title: "Corsi"
+  #   href: "/corsi"
+
+  # - title: "Fotografia de Bodas"
+  #   href: "/bodas"
+# ---------------------------------------------------------
+footer_menu:
+
+  - title: "Archivio"
+    href: "/articulos"
+
+  - title: "Scrivici"
+    href: "/scrivici"
+
+  - title: "Facebook"
+    href: "https://www.facebook.com/es5p2p" # controlla!
+
+# ---------------------------------------------------------
+# Accounts
+# ---------------------------------------------------------
+google_analytics: UA-69446168-1
+
+# ---------------------------------------------------------
+# Jekyll stuff
+# ---------------------------------------------------------
+assets: /
+images: /images/posts
+previews: /previews
+permalink: /:categories/:title/
+# permalink: pretty
+markdown: kramdown
+timezone: Europe/Rome
+future: false
+sass:
+  style: compressed
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "post"
+      author: "guest"
