@@ -5,15 +5,15 @@
     <title>{{page.title}}</title>
 
 
-    <link rel="shortcut icon" href="{{site.favicon}}">
+    <link rel="shortcut icon" href="{{site.baseurl}}{{site.favicon}}">
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="{{site.assets}}css/foundation.css" />
-    <link rel="stylesheet" href="{{site.assets}}css/style.css" />
+    <link rel="stylesheet" href="{{site.baseurl}}{{site.assets}}css/foundation.css" />
+    <link rel="stylesheet" href="{{site.baseurl}}{{site.assets}}css/style.css" />
 
-    <script src="{{site.assets}}js/vendor/modernizr.js"></script>
+    <script src="{{site.baseurl}}{{site.assets}}js/vendor/modernizr.js"></script>
   </head>
   <body>
   
@@ -24,7 +24,7 @@
   <div class="inner-wrap">
 
   <nav class="header">
-    <a class="" href="{{site.url}}"><img class="logo" src="{{site.logo}}" alt="logo" /></a>
+    <a class="" href="{{site.url}}"><img class="logo" src="{{site.baseurl}}{{site.logo}}" alt="logo" /></a>
     <div  class="right-off-canvas-toggle">
     <span>5PANI2PESCI</span>
     <a href="#" ><div class="menu"> MENU</div></a>
@@ -49,7 +49,7 @@
         </ul>
     </aside>
       <section class="splash">
-        <img src="/images/posts/test.jpg" alt="splash" />
+        <img src="{{site.baseurl}}/images/posts/test.jpg" alt="splash" />
       </section>
     
   <!-- close the off-canvas menu -->
