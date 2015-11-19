@@ -1,0 +1,3 @@
+{% assign paragraphs = content | split: '</p>' %}
+{{paragraphs[0] | append: '</p>'}}
+

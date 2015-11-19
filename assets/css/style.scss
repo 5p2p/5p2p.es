@@ -4,7 +4,7 @@
 
 // Color palette
 $key_color:          #0D83AF; //#00d7ff;
-$light_key_color:     #01ADEF;
+$light_key_color:    #01A2E0; //#01ADEF;
 $text_color:         #393531; //#312A22; //#161819;
 $gray_text:          #aaa;
 $gray_background:    #eee;
@@ -84,6 +84,18 @@ a:hover {
   text-decoration: underline;
 }
 
+// .post > p:first-of-type{
+.post > p:first-child:first-letter {
+  font-size: $h1_size;
+  margin-right: -0.2rem;
+  line-height: 1rem;
+  float: left;
+}
+
+.post {
+  padding-top: 2rem;
+}
+
 .post a {
   position: relative;
   color: $light_key_color;
@@ -115,11 +127,6 @@ a:hover {
   transform: scaleX(1);
 }
 
-.post > p:first-of-type{
-  background-color: $key_color;
-  max-width: 100%;
-}
-
 .post::after {
   content: "";
   display: block;
@@ -129,10 +136,44 @@ a:hover {
   margin: 2rem auto;
 }
 
+.post-header{
+  color: white;
+  background-color: $light_key_color;
+  max-width: 100%;
+  @extend .sans;
+  // font-weight: 300;
+  padding-bottom: 2rem;
+}
+
+.author {
+  padding: 0 auto;
+  margin-top: -1rem;
+}
+.author::before {
+  content: "by";
+  @extend .italic;
+  @extend .thin-text;
+  padding-right: 0.2rem;
+}
+
+.date{}
+
 // UTILITIES
 
 .sans {
   font-family: 'Open Sans', sans-serif;
+}
+.bold-text{
+  font-weight: 700;
+}
+.thin-text{
+  font-weight: 300;
+}
+.italic{
+  font-style: italic;
+}
+.slightly-bigger-text{
+  font-size: $normal_text_size*1.0;
 }
 .withlove {
     color: #FFA48F;
