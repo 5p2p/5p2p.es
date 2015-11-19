@@ -1,15 +1,15 @@
 # ---------------------------------------------------------
 # Blog infos
 # ---------------------------------------------------------
+name: 5pani2pesci
 description: 5p2p en español
 metadata: [matrimonio, cristiano, amor]
 url: http://5p2p.es
 
 # ---------------------------------------------------------
-# Devel
+# Devel --# comment on production phase!
 # ---------------------------------------------------------
 baseurl: /5p2p.es
-
 
 # ---------------------------------------------------------
 # Blog basic design
@@ -78,7 +78,7 @@ google_analytics: UA-69446168-1
 # ---------------------------------------------------------
 # Jekyll stuff
 # ---------------------------------------------------------
-assets: /
+assets: /assets/
 images: /images/posts
 previews: /previews
 permalink: /:categories/:title/

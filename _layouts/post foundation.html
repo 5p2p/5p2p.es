@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+
+    <title>{{page.title}}</title>
+
+
+    <link rel="shortcut icon" href="{{site.baseurl}}{{site.favicon}}">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="{{site.baseurl}}{{site.assets}}css/foundation.css" />
+    <link rel="stylesheet" href="{{site.baseurl}}{{site.assets}}css/style.css" />
+
+    <script src="{{site.baseurl}}{{site.assets}}js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+  
+ <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+
+  <nav class="header">
+    
+    <ul class="left">
+      <li class="left hide-for-small-only">
+        <a class="" href="{{site.url}}"><img class="logo" src="{{site.baseurl}}{{site.logo}}" alt="logo" /></a>
+      </li>
+
+      <li class="left margin0 padding0">
+        <div class="left keycolor-text">5PANI2PESCI</div>
+      </li>
+
+ <!-- hide-for-small-only -->
+    <!-- <a class="" href="{{site.url}}"><img class="logo" src="{{site.baseurl}}{{site.logo}}" alt="logo" /></a> -->
+    </ul>
+
+    <ul class="right">
+      
+      <li class="menu right-off-canvas-toggle keycolor">
+        <a class="" href="#" >
+          <div class="right hamburger-container">
+            <div class="hamburger" href="#"><div class="hamburger__inner"></div></div>
+          </div>
+          <div class="right">MENU</div>
+        </a>
+      </li>
+
+
+    </ul>
+  </nav>
+
+    <!-- Off Canvas Menu -->
+
+    <aside class="right-off-canvas-menu lightkeycolor">
+        <ul class="side-nav main">
+          <li><a class="is-active" href="#">faster</a></li>
+          <li><a href="#">smarter</a></li>
+          <li><a href="#">easier</a></li>
+        </ul>
+        <ul class="side-nav secondary">
+          <li><a href="#">about us</a></li>
+          <li><a href="#">contact us</a></li>
+        </ul>
+        <ul class="inline-list social">
+          <li><i class="fi-social-facebook"></i></li>
+          <li><i class="fi-social-youtube"></i></li>
+          <li><i class="fi-social-twitter"></i></li>
+        </ul>
+    </aside>
+
+      <section class="splash">
+        <!-- <img src="{{site.baseurl}}/images/posts/test.jpg" alt="splash" /> -->
+        <img src="/images/posts/come-ti-realizzi-nella-vita.jpg" alt="splash" />
+      </section>
+
+  <!-- close the off-canvas menu -->
+  <!-- <a class="exit-off-canvas"></a> -->
+  
+    <div class="row">
+      <div class="columns large-12 post">
+        {{content}}
+      </div>
+    </div>
+
+  </div>
+</div>
+    
+    <script src="{{site.baseurl}}{{site.assets}}js/vendor/jquery.js"></script>
+    <script src="{{site.baseurl}}{{site.assets}}js/foundation.min.js"></script>
+
+<script type="text/javascript">
+$(document).foundation();
+
+$(function() {
+  $(".right-off-canvas-toggle, .exit-off-canvas").click(function() {
+    $(".menu").toggleClass("hamburger--open");
+
+    });
+});
+</script>
+
+  </body>
+</html>

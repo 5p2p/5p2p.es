@@ -1,85 +1,19 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
+<html lang="it">
+<head>{% include header.html %}</head>
 
-    <title>{{page.title}}</title>
+<body>
+<div id="main-container">
 
+<div class="post">
 
-    <link rel="shortcut icon" href="{{site.baseurl}}{{site.favicon}}">
+{% assign myArray = content | split: '</p>' %}
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="{{site.baseurl}}{{site.assets}}css/foundation.css" />
-    <link rel="stylesheet" href="{{site.baseurl}}{{site.assets}}css/style.css" />
+{{myArray[0]}}
 
-    <script src="{{site.baseurl}}{{site.assets}}js/vendor/modernizr.js"></script>
-  </head>
-  <body>
-  
- <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
-
-
-<div class="off-canvas-wrap" data-offcanvas>
-  <div class="inner-wrap">
-
-  <nav class="header">
-    <a class="" href="{{site.url}}"><img class="logo" src="{{site.baseurl}}{{site.logo}}" alt="logo" /></a>
-    <ul class="right">
-      <li class="">5PANI2PESCI</li>
-      <li class="menu right-off-canvas-toggle"><a class="" href="#" >MENU</a></li>
-    </ul>
-  </nav>
-    <!-- Off Canvas Menu -->
-    <aside class="right-off-canvas-menu">
-        <!-- whatever you want goes here -->
-        <ul class="side-nav main">
-          <li><a class="is-active" href="#">faster</a></li>
-          <li><a href="#">smarter</a></li>
-          <li><a href="#">easier</a></li>
-        </ul>
-        <ul class="side-nav secondary">
-          <li><a href="#">about us</a></li>
-          <li><a href="#">contact us</a></li>
-        </ul>
-        <ul class="inline-list social">
-          <li><i class="fi-social-facebook"></i></li>
-          <li><i class="fi-social-youtube"></i></li>
-          <li><i class="fi-social-twitter"></i></li>
-        </ul>
-    </aside>
-      <section class="splash">
-        <img src="{{site.baseurl}}/images/posts/test.jpg" alt="splash" />
-      </section>
-    
-  <!-- close the off-canvas menu -->
-  <a class="exit-off-canvas"></a>
-
-    <div class="row clearfix">
-      <div class="columns large-12">
-        {{content}}
-      </div>
-    </div>
-
-  </div>
+<!-- {{content}} -->
 </div>
 
-    
-    <script src="{{site.baseurl}}{{site.assets}}js/vendor/jquery.js"></script>
-    <script src="{{site.baseurl}}{{site.assets}}js/foundation.min.js"></script>
+{% include footer.html %}
 
-<script type="text/javascript">
-  $(document).foundation();
-
-$(function() {
-  $(".right-off-canvas-toggle, .exit-off-canvas").click(function() {
-      $(".top-bar").toggleClass("top-bar-close");
-    $(".middle-bar").toggleClass("middle-bar-close");
-    $(".bottom-bar").toggleClass("bottom-bar-close");
-    });
-});
-
-</script>
-
-  </body>
+</body>
 </html>
