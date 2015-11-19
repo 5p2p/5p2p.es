@@ -2,6 +2,7 @@
 # Blog infos
 # ---------------------------------------------------------
 name: 5pani2pesci
+subname: Avventure di provvidenza quotidiana
 description: 5p2p en español
 metadata: [matrimonio, cristiano, amor]
 url: http://5p2p.es
@@ -38,20 +39,27 @@ authors:
 # ---------------------------------------------------------
 menu:
 
-  - title: "Articoli"
-    href: "/articulos"
-
-  - title: "Video"
-    href: "/video"
+  - title: "Blog"
+    href: "/blog"
 
   - title: "Chi siamo"
     href: "/chi-siamo"
 
+  - title: "Corsi"
+    href: "/corsi"
+
+  - title: "Weddings"
+    href: "/weddings"
+
+  - title: "Libri"
+    href: "/libri"
+
   - title: "Donazioni"
     href: "/donazioni"
 
-  # - title: "Libri consigliati"
-  #   href: "/libros"
+  - title: "Scrivici"
+    href: "/scrivici"
+
 
   # - title: "Corsi"
   #   href: "/corsi"

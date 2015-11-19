@@ -1,8 +1,8 @@
 <footer>
     <div id="bottomLinks" class="sans center-text">
         <p>
-        {% for page in site.footer_menu %} 
-            <a href="{{page.href}}">{{page.title}}</a> 
+        {% for link in site.footer_menu %} 
+            <a href="{{page.href}}">{{link.title}}</a> 
         {% endfor %}
         </p>
     </div>

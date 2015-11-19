@@ -1,5 +1,5 @@
 ---
-title: E tu, come ti realizzi nella vita?
+title: Ma tu, come ti realizzi nella vita?
 author: ruvido
 image: come-ti-realizzi-nella-vita.jpg
 permalink: prova/

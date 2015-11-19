@@ -84,6 +84,15 @@ a:hover {
   text-decoration: underline;
 }
 
+// SPECIFIC ELEMENTS
+
+#splash {
+  width: 100%;
+}
+#description{
+  padding-top:2rem;
+}
+
 // .post > p:first-of-type{
 .post > p:first-child:first-letter {
   font-size: $h1_size;
