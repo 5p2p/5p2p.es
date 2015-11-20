@@ -13,6 +13,12 @@
 
     <nav>
         {% for link in site.menu %} 
+            <a class="item {{link.class}}" href="{{page.href}}">{{link.title}}</a> 
+        {% endfor %}
+    </nav>
+
+    <nav>
+        {% for link in site.menu %} 
             <a class="item {{link.title}}" href="{{page.href}}">{{link.title}}</a> 
         {% endfor %}
     </nav>

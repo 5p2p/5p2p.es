@@ -111,13 +111,15 @@ header {
     font-size: $sm_size;
     line-height: 4rem;
     @extend .sans;
+    // font-family: 'Open Sans Condensed';
+
     a.item {
       color: $text_color;
       padding: 0 0.4rem;
       font-weight: 300;
     }
-    a.Donazioni {
-      font-weight: 400;
+    a.donazioni, a.Donazioni {
+      font-weight: 600;
     }
   }
   nav::before {
@@ -128,6 +130,7 @@ header {
 
 #splash {
   width: 100%;
+  display: block;
 }
 #description{
   padding-top:2rem;
@@ -233,6 +236,35 @@ header {
   margin: 2rem auto;
 }
 
+// COOLORS STUFF
+/* Coolors Exported Palette - coolors.co/ed6a5a-f4f1bb-9bc1bc-5ca4a9-e6ebe0 */
+
+$color1: #ed6a5a; //rgba(237, 106, 90, 100)
+$color2: #f4f1bb; //rgba(244, 241, 187, 100)
+$color3: #9bc1bc; //rgba(155, 193, 188, 100)
+$color4: #5ca4a9; //rgba(92, 164, 169, 100)
+$color5: #e6ebe0; //rgba(230, 235, 224, 100)
+
+.ballon1{
+  color: white !important;
+  background-color: $color1;
+  border-radius: 10px;
+}
+.ballon2{
+  color: white !important;
+  background-color: $color2;
+  border-radius: 10px;
+}
+.ballon3{
+  color: white !important;
+  background-color: $color3;
+  border-radius: 10px;
+}
+.ballon4{
+  color: white !important;
+  background-color: $color4;
+  border-radius: 10px;
+}
 // RESPONSIVE BIG SCREENS (mobile first)
 $big_break: $column_max_width+2*$mobile_padding;
 @media all and (min-width: $big_break) {
