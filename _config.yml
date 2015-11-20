@@ -42,23 +42,20 @@ menu:
   - title: "Blog"
     href: "/blog"
 
-  - title: "Chi siamo"
-    href: "/chi-siamo"
-
   - title: "Corsi"
     href: "/corsi"
-
-  - title: "Weddings"
-    href: "/weddings"
 
   - title: "Libri"
     href: "/libri"
 
+  - title: "Fotografia"
+    href: "http://weddings.5p2p.it"
+
   - title: "Donazioni"
     href: "/donazioni"
 
-  - title: "Scrivici"
-    href: "/scrivici"
+  # - title: "Scrivici"
+  #   href: "/scrivici"
 
 
   # - title: "Corsi"
@@ -71,6 +68,9 @@ footer_menu:
 
   - title: "Archivio"
     href: "/articulos"
+
+  - title: "Chi siamo"
+    href: "/chi-siamo"
 
   - title: "Scrivici"
     href: "/scrivici"

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="it">
 <head>{% include header.html %}</head>
 
@@ -5,13 +6,14 @@
 <div id="main-container">
 
 <header>
-
-    <h2>{{site.name}}</h2>
-    <h3 class="thin-text">{{site.subname}}</h3>
+    <div>
+        <h1>{{site.name}}</h1>
+        <h2>{{site.subname}}</h2>
+    </div>
 
     <nav>
         {% for link in site.menu %} 
-            <a href="{{page.href}}">{{link.title}}</a> 
+            <a class="item {{link.title}}" href="{{page.href}}">{{link.title}}</a> 
         {% endfor %}
     </nav>
 
@@ -19,19 +21,18 @@
 
 </header>
 
+<article>
 
-<div class="post-header">
-    <h1 class="">{{page.title}}</h1>
-    <p class="small-text author">{% include authors.html %}</p>
-    <!-- <p class="date">{{page.date}}</p> -->
-    <p id="description" class="bold-text slightly-bigger-text">{{page.description}}</p>
-</div>
+    <div class="post-header">
+        <h1 class="">{{page.title}}</h1>
+        <p class="small-text author">{% include authors.html %}</p>
+        <!-- <p class="date">{{page.date}}</p> -->
+        <p id="description" class="bold-text slightly-bigger-text">{{page.description}}</p>
+    </div>
 
-<div class="post">
+    <div class="post">{{content}}</div>
 
-    {{content}}
-
-</div>
+</article>
 
 {% include footer.html %}
 

@@ -86,6 +86,46 @@ a:hover {
 
 // SPECIFIC ELEMENTS
 
+header {
+  text-align: center;
+  h1,h2{
+    margin:0 auto; padding:0;
+  }
+  h1 {
+    padding: $mobile_padding 0 0 0;
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 1;
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+    letter-spacing: -3px;
+    // color: $key_color;
+  }
+  h2 {
+    @extend .thin-text;
+    font-weight: 300;
+    font-size: 0.9rem;
+    padding: 0 0 0 $mobile_padding;
+  }
+  nav {
+    font-size: $sm_size;
+    line-height: 4rem;
+    @extend .sans;
+    a.item {
+      color: $text_color;
+      padding: 0 0.4rem;
+      font-weight: 300;
+    }
+    a.Donazioni {
+      font-weight: 400;
+    }
+  }
+  nav::before {
+    @extend .smallbar;
+    margin: 0.8rem auto 0 auto !important;
+  }
+}
+
 #splash {
   width: 100%;
 }
@@ -136,14 +176,7 @@ a:hover {
   transform: scaleX(1);
 }
 
-.post::after {
-  content: "";
-  display: block;
-  height: 0.5rem;
-  width: 6rem;
-  background-color: $gray_background;
-  margin: 2rem auto;
-}
+.post::after { @extend .smallbar; }
 
 .post-header{
   color: white;
@@ -191,6 +224,14 @@ a:hover {
   text-align: center;
 }
 
+.smallbar{
+  content: "";
+  display: block;
+  height: 0.5rem;
+  width: 6rem;
+  background-color: $gray_background;
+  margin: 2rem auto;
+}
 
 // RESPONSIVE BIG SCREENS (mobile first)
 $big_break: $column_max_width+2*$mobile_padding;
