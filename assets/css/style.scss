@@ -88,24 +88,27 @@ a:hover {
 
 header {
   text-align: center;
-  h1,h2{
-    margin:0 auto; padding:0;
-  }
-  h1 {
+  section {
     padding: $mobile_padding 0 0 0;
-    text-transform: uppercase;
-    font-size: 3rem;
-    line-height: 1;
-    font-family: 'Open Sans Condensed';
-    font-weight: 700;
-    letter-spacing: -3px;
-    // color: $key_color;
-  }
-  h2 {
-    @extend .thin-text;
-    font-weight: 300;
-    font-size: 0.9rem;
-    padding: 0 0 0 $mobile_padding;
+    img{ width: 4rem;}
+    h1,h2{
+      margin:0 auto; padding:0;
+    }
+    h1 {
+      text-transform: uppercase;
+      font-size: $h1_size*1.2;
+      line-height: 1;
+      font-family: 'Open Sans Condensed';
+      font-weight: 700;
+      letter-spacing: -3px;
+      // color: $key_color;
+    }
+    h2 {
+      @extend .thin-text;
+      font-weight: 300;
+      font-size: 0.9rem;
+      padding: 0 0 0 $mobile_padding;
+    }
   }
   nav {
     font-size: $sm_size;
@@ -274,5 +277,27 @@ $big_break: $column_max_width+2*$mobile_padding;
   h2 { font-size: $h2_size*$big_screen_scale; }
   h3 { font-size: $h3_size*$big_screen_scale; }
   h4 { font-size: $h4_size*$big_screen_scale; }
+
+  $big_header_height: 6rem;
+
+  header {
+  section {float: left; text-align: left; padding: 2rem ;}
+  h1,h2,nav{margin:0 auto; padding:0;}
+  h2::before{
+    content: "";
+    display: block;
+    height: 0.5rem;
+    width: 16rem;
+    background-color: $gray_background;
+    margin: 0;    
+  }
+  nav {float: right; font-size: $sm_size; 
+    padding: 2.7rem 1rem 0 0;
+    a.item {padding: 0 0.4rem;}
+  }
+  nav::before {content: ""; 
+  height:0; width:0; margin:0; padding:0;}
+}
+
 
 }

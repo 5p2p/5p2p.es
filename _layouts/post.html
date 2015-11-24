@@ -6,16 +6,19 @@
 <div id="main-container">
 
 <header>
-    <div>
+    <section>
+        <img src="{{site.baseurl}}{{site.logo}}" alt="{{site.description}}">
         <h1>{{site.name}}</h1>
         <h2>{{site.subname}}</h2>
-    </div>
+    </section>
 
+<!--     
     <nav>
         {% for link in site.menu %} 
             <a class="item {{link.class}}" href="{{page.href}}">{{link.title}}</a> 
         {% endfor %}
     </nav>
+ -->
 
     <nav>
         {% for link in site.menu %} 

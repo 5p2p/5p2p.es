@@ -100,7 +100,7 @@ markdown: kramdown
 timezone: Europe/Rome
 future: false
 sass:
-  style: compressed
+  # style: compressed
 defaults:
   -
     scope:
