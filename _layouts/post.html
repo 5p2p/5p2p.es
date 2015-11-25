@@ -6,19 +6,13 @@
 <div id="main-container">
 
 <header>
+
+    <img id="logo" src="{{site.baseurl}}{{site.logo}}" alt="{{site.description}}">
+
     <section>
-        <img src="{{site.baseurl}}{{site.logo}}" alt="{{site.description}}">
         <h1>{{site.name}}</h1>
         <h2>{{site.subname}}</h2>
     </section>
-
-<!--     
-    <nav>
-        {% for link in site.menu %} 
-            <a class="item {{link.class}}" href="{{page.href}}">{{link.title}}</a> 
-        {% endfor %}
-    </nav>
- -->
 
     <nav>
         {% for link in site.menu %} 
@@ -32,14 +26,18 @@
 
 <article>
 
-    <div class="post-header">
+    <section>
         <h1 class="">{{page.title}}</h1>
         <p class="small-text author">{% include authors.html %}</p>
-        <!-- <p class="date">{{page.date}}</p> -->
-        <p id="description" class="bold-text slightly-bigger-text">{{page.description}}</p>
-    </div>
+        <p class="small-text date">{% include dates_ita.html %}</p>
+    </section>
 
-    <div class="post">{{content}}</div>
+    {% if page.description %}
+        <p id="description" class="bold-text slightly-bigger-text">{{page.description}}</p>
+        <div class="post">{{content}}</div>
+    {% else %}
+        <div class="post first-paragraph">{{content}}</div>
+    {% endif %}
 
 </article>
 

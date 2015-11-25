@@ -26,6 +26,7 @@ $h3_size : $h4_size*$scale;
 $h2_size : $h3_size*$scale;
 $h1_size : $h2_size*$scale;
 $bg_size : $h1_size*$scale;
+$subtitle_header_size : 0.9rem;
 
 .script-text { font-size: $vs_size; } // very small text
 .small-text  { font-size: $sm_size; } // small text
@@ -37,6 +38,7 @@ h4 { font-size: $h4_size; }
 
 // ============================================
 
+html {font-size: 16px;}
 body{
   font-family: 'Georgia', serif;
   line-height: $line_height;
@@ -87,10 +89,10 @@ a:hover {
 // SPECIFIC ELEMENTS
 
 header {
+  padding-top: $mobile_padding;
   text-align: center;
   section {
-    padding: $mobile_padding 0 0 0;
-    img{ width: 4rem;}
+    padding: 0;//$mobile_padding 0 0 0;
     h1,h2{
       margin:0 auto; padding:0;
     }
@@ -106,8 +108,7 @@ header {
     h2 {
       @extend .thin-text;
       font-weight: 300;
-      font-size: 0.9rem;
-      padding: 0 0 0 $mobile_padding;
+      font-size: $subtitle_header_size;
     }
   }
   nav {
@@ -131,6 +132,8 @@ header {
   }
 }
 
+#logo{ width: 4rem;}
+
 #splash {
   width: 100%;
   display: block;
@@ -140,11 +143,14 @@ header {
 }
 
 // .post > p:first-of-type{
-.post > p:first-child:first-letter {
-  font-size: $h1_size;
-  margin-right: -0.2rem;
-  line-height: 1rem;
+.first-paragraph > p:first-child:first-letter {
+  font-size: 3*$pg_size;
+  margin-right: 0.1rem;
+  line-height: 0.2;
   float: left;
+}
+.first-paragraph > p:first-child:first-of-type {
+  font-size: 1.2*$pg_size;
 }
 
 .post {
@@ -184,27 +190,38 @@ header {
 
 .post::after { @extend .smallbar; }
 
-.post-header{
-  color: white;
-  background-color: $light_key_color;
-  max-width: 100%;
-  @extend .sans;
-  // font-weight: 300;
-  padding-bottom: 2rem;
+article{
+  section{
+    color: white;
+    background-color: $light_key_color;
+    background-color: $key_color;
+    max-width: 100%;
+    @extend .sans;
+    // font-weight: 300;
+    padding: 1rem $mobile_padding;
+  }
+  h1 {font-size: $pg_size; padding: 0;}
+  p {display: inline-block; padding: 0;}
+  .author {
+    padding: 0 auto;
+    margin-top: -1rem;
+  }
+  .author::before {
+    content: "by";
+    @extend .italic;
+    @extend .thin-text;
+    padding-right: 0.2rem;
+  }
+  .date::before{
+    content: "//";
+  }
+  .date{
+    @extend .italic;
+    @extend .thin-text;
+  }
 }
 
-.author {
-  padding: 0 auto;
-  margin-top: -1rem;
-}
-.author::before {
-  content: "by";
-  @extend .italic;
-  @extend .thin-text;
-  padding-right: 0.2rem;
-}
 
-.date{}
 
 // UTILITIES
 
@@ -269,7 +286,12 @@ $color5: #e6ebe0; //rgba(230, 235, 224, 100)
   border-radius: 10px;
 }
 // RESPONSIVE BIG SCREENS (mobile first)
+
 $big_break: $column_max_width+2*$mobile_padding;
+$bigger_break: $big_break*1.35;
+$biggest_break: $big_break*1.6;
+
+// -------------
 @media all and (min-width: $big_break) {
   body{font-size: $normal_text_size*$big_screen_scale;}
   body{line-height: $line_height*$big_screen_scale;}
@@ -278,26 +300,50 @@ $big_break: $column_max_width+2*$mobile_padding;
   h3 { font-size: $h3_size*$big_screen_scale; }
   h4 { font-size: $h4_size*$big_screen_scale; }
 
-  $big_header_height: 6rem;
-
+  #logo {float: left; width: 5.2rem; margin: 2rem 0.4rem;}
   header {
-  section {float: left; text-align: left; padding: 2rem ;}
-  h1,h2,nav{margin:0 auto; padding:0;}
-  h2::before{
-    content: "";
-    display: block;
-    height: 0.5rem;
-    width: 16rem;
-    background-color: $gray_background;
-    margin: 0;    
+    section {float: left; text-align: left; padding: 2rem 0rem ;}
+    h1,h2,nav{margin:0 auto; padding:0;}
+    h2::before{
+      content: "";
+      display: block;
+      height: 0.5rem;
+      width: 16rem;
+      background-color: $gray_background;
+      margin: 0;    
+    }
+    nav {float: right; font-size: $sm_size; 
+      padding: 2.7rem 1rem 0 0;
+      a.item {padding: 0 0.4rem;}
+    }
+    nav::before {content: ""; 
+    height:0; width:0; margin:0; padding:0;}
   }
-  nav {float: right; font-size: $sm_size; 
-    padding: 2.7rem 1rem 0 0;
-    a.item {padding: 0 0.4rem;}
+  article{
+    section{
+    h1 {font-size: $h4_size;}
+    }
   }
-  nav::before {content: ""; 
-  height:0; width:0; margin:0; padding:0;}
 }
-
-
+// -------------
+@media all and (min-width: $bigger_break) {
+  header {
+    h1{font-size: $h1_size*1.4 !important;}
+    h2{font-size: $subtitle_header_size*1.2 !important;}
+    h2::before{width: 22rem;}
+    nav{
+      padding-top: 3.1rem; font-size:$sm_size*1.2;
+      a.item{padding: 0 1rem;}
+    }
+  }
+}
+// -------------
+@media all and (min-width: $biggest_break) {
+  #logo{margin-top: 2rem;}
+  header {
+    h1{font-size: $h1_size*1.6 !important;}
+    nav{padding: 3.6rem 4rem 0 0;
+      a.item{padding: 0 1.5rem;}
+    }
+  }
 }

@@ -1,12 +1,10 @@
 
 {% if page.author %}
-{% assign name = page.author %}
+{% assign name = page.author | downcase %}
 {% case name %}
-{% when 'ruvido'    %}Francesco Rao
-{% when 'alescanca' %}Alessandra e Francesco,
-{% when 'luca'      %}Chiara e Luca,
-{% when 'chiara'    %}Chiara e Luca,
-{% when 'guest'     %}una coppia di sposi,
+{% when 'ruvido'    %}Francesco
+{% when 'alescanca' %}Alessandra,
+{% when 'guest'     %}Guest,
 {% endcase %}
 {% else %}
 una coppia di sposi,

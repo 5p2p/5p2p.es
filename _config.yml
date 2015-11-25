@@ -15,7 +15,7 @@ baseurl: /5p2p.es
 # ---------------------------------------------------------
 # Blog basic design
 # ---------------------------------------------------------
-logo:    /images/logo/logo-5p2p-128.png
+logo:    /images/logo/logo-5p2p-256.png
 favicon: /images/logo/logo-5p2p-64.png
 header:  /images/header/header.png # landing page header
 fb_img:  /images/header/header.png # default post header
