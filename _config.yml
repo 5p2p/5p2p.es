@@ -6,6 +6,7 @@ subname: Avventure di provvidenza quotidiana
 description: 5p2p en español
 metadata: [matrimonio, cristiano, amor]
 url: http://5p2p.es
+about: /chi-siamo
 
 # ---------------------------------------------------------
 # Devel --# comment on production phase!
@@ -70,9 +71,6 @@ menu:
   #   href: "/bodas"
 # ---------------------------------------------------------
 footer_menu:
-
-  - title: "Archivio"
-    href: "/articulos"
 
   - title: "Chi siamo"
     href: "/chi-siamo"

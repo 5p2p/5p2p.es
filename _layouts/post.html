@@ -16,7 +16,7 @@
 
     <nav>
         {% for link in site.menu %} 
-            <a class="item {{link.title}}" href="{{page.href}}">{{link.title}}</a> 
+            <a class="item {{link.title}}" href="{{link.href}}">{{link.title}}</a> 
         {% endfor %}
     </nav>
 
@@ -26,12 +26,18 @@
 
 <article>
 
-    <section>
+    <!-- <section class="alert"><p>{{page.alert}}</p></section> -->
+
+
+    <section class="post-title">
         <h1 class="">{{page.title}}</h1>
-        <p class="small-text author">{% include authors.html %}</p>
-        <p class="small-text date">{% include dates_ita.html %}</p>
+        <p class="script-text">
+        <span class="author"><a href="{{site.about}}">{% include authors.html %}</a></span>
+        <span class="date">{% include dates_ita.html %}</span>
+        </p>
     </section>
 
+    
     {% if page.description %}
         <p id="description" class="bold-text slightly-bigger-text">{{page.description}}</p>
         <div class="post">{{content}}</div>

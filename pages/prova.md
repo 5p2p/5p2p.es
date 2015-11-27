@@ -4,6 +4,7 @@ author: Ruvido
 image: come-ti-realizzi-nella-vita.jpg
 permalink: prova/
 date: 13-11-2005
+alert: Stai organizzando un matrimonio da Dio? Chiamaci, 5pani2pesci è un progetto sostenuto dai servizi foto e video ai matrimoni.
 <!-- description: Così a bruciapelo che diresti? Capire cosa dona vera pienezza alla nostre esistenze, sembra affare davvero complesso. Infatti, seguendo i consigli comuni mi sono ritrovato a girare a vuoto per anni. Eppure, ci sono tre punti cardinali per fare centro e senza errore. Deluso dalle promesse che ti sono state fatte? Continua a leggere. -->
 ---
 
@@ -11,10 +12,13 @@ Così a bruciapelo che diresti? Capire cosa dona vera pienezza alla nostre esist
 
 Per i miei nonni fare centro della vita era "mettere su famiglia" e vivere in maniera dignitosa; per i miei genitori è stato riuscirsi ad elevare da un punto di vista sociale, magari passare da un lavoro di fatica ad un mestiere più elevato o intellettuale. Per la maggior parte di noi invece, questi traguardi sono praticamente scontati, facciamo parte della generazione del benessere e la nostra ossessione è piuttosto **realizzarsi nella vita**, essere felici, fare **ciò che ti piace**. Per molti la realizzazione passa per lo status sociale, **avere successo**, un buon lavoro ben pagato che ti permetta di fare ciò che vuoi e, perché no, anche un po' di prestigio.
 
+> Tu sei fatto come un prodigio, il Signore non si è sbagliato.
+> Tu sei fatto come un prodigio, il Signore non si è sbagliato.
+> <cite>Lc5,5</cite>
+
 Per me l'iter è stato sicuramente questo. Ho avuto una famiglia che mi ha permesso di studiare e di *puntare in alto*. Ho studiato ingegneria e poi fisica, dottorato a Zurigo. Una bella carriera fatta di successi e soddisfazioni. Una sfida continua per andare più in alto, sempre più in alto ... fino a che? Fino a che mi sono ritrovato a vivere qualcosa che non mi apparteneva. Un giorno ho aperto gli occhi e mi sono accorto di correre una gara senza senso. Dov'era la promessa felicità? 
 
 A questo proposito, mi è rimasto molto impresso un racconto di don Fabio Rosini. Prima della sua conversione, don Fabio era un musicista abbastanza brillante, e sebbene stesse *inseguendo* il suo sogno, era fondamentalmente *un cretino* (usando le sue stesse parole). Sentiva che mancava qualcosa, allora si disse: "Ecco per essere veramente felice mi manca la moto". E così si ritrovò ad essere *un cretino con la moto*. Ma mancava ancora qualcosa: "No aspetta ora ho la moto ma mi manca la ragazza". Trovata la ragazza, diventò *un cretino con la moto e la ragazza*. Ma sempre cretino restava. Che mancava?
-
 
 ### Specchietti per le allodole
 

@@ -1,12 +1,3 @@
-.script-text {
-  font-size: 0.704rem; }
-
-.small-text {
-  font-size: 0.88rem; }
-
-.big-text {
-  font-size: 3.35693rem; }
-
 h1 {
   font-size: 2.68555rem; }
 
@@ -54,12 +45,49 @@ p, ul, ol, li {
   list-style-position: inside; }
 
 a {
+  position: relative;
   color: #01A2E0;
-  font-weight: bold;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: bold; }
 
 a:hover {
-  text-decoration: underline; }
+  color: #01A2E0; }
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s; }
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1); }
+
+blockquote {
+  width: 80%;
+  margin: 1rem auto;
+  padding: -2rem;
+  font-size: 1.375rem;
+  line-height: 1.5; }
+  blockquote p {
+    max-width: 50rem;
+    border-left: 0.7rem solid #eee;
+    padding: 1rem 2rem;
+    margin: 2rem auto 1rem auto; }
+  blockquote cite::before {
+    content: '- '; }
+  blockquote cite {
+    display: block;
+    text-align: right; }
 
 header {
   padding-top: 1rem;
@@ -71,7 +99,7 @@ header {
       padding: 0; }
     header section h1 {
       text-transform: uppercase;
-      font-size: 3.22266rem;
+      font-size: 3.35693rem;
       line-height: 1;
       font-family: 'Open Sans Condensed';
       font-weight: 700;
@@ -108,52 +136,22 @@ header {
   float: left; }
 
 .first-paragraph > p:first-child:first-of-type {
-  font-size: 1.32rem; }
+  font-size: 1.375rem; }
 
-.post {
+article .post {
   padding-top: 2rem; }
-
-.post a {
-  position: relative;
-  color: #01A2E0;
-  text-decoration: none; }
-
-.post a:hover {
-  color: #01A2E0; }
-
-.post a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  bottom: -2px;
-  left: 0;
-  background-color: #01A2E0;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s; }
-
-.post a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1); }
-
-article section {
-  color: white;
-  background-color: #01A2E0;
-  background-color: #0D83AF;
-  max-width: 100%;
+  article .post h2, article .post h3 {
+    font-size: 1.71875rem; }
+article section.alert {
+  text-align: center; }
+article section.post-title {
   padding: 1rem 1rem; }
+  article section.post-title p {
+    padding: 0; }
 article h1 {
-  font-size: 1.1rem;
-  padding: 0; }
-article p {
-  display: inline-block;
+  font-size: 1.76rem;
   padding: 0; }
 article .author {
-  padding: 0 auto;
   margin-top: -1rem; }
 article .author::before {
   content: "by";
@@ -161,16 +159,33 @@ article .author::before {
 article .date::before {
   content: "//"; }
 
-.sans, header nav, article section {
+footer #footer_menu {
+  text-align: center; }
+  footer #footer_menu li {
+    display: inline-block;
+    list-style-type: none; }
+footer #copyright {
+  padding-top: 1rem; }
+
+.script-text {
+  font-size: 0.704rem; }
+
+.small-text {
+  font-size: 0.88rem; }
+
+.big-text {
+  font-size: 3.35693rem; }
+
+.sans, li, header nav, article section {
   font-family: 'Open Sans', sans-serif; }
 
 .bold-text {
   font-weight: 700; }
 
-.thin-text, header section h2, article .author::before, article .date {
+.thin-text, blockquote, header section h2, article section, article .author::before, article .date {
   font-weight: 300; }
 
-.italic, article .author::before, article .date {
+.italic, blockquote {
   font-style: italic; }
 
 .slightly-bigger-text {
@@ -182,7 +197,8 @@ article .date::before {
 .center-text {
   text-align: center; }
 
-.smallbar, header nav::before, .post::after {
+.small-bar, header nav::before, article .post::after, article section.alert::before,
+article section.alert::after, article section.post-title::before {
   content: "";
   display: block;
   height: 0.5rem;
@@ -260,20 +276,17 @@ article .date::before {
     height: 0;
     width: 0;
     margin: 0;
-    padding: 0; }
-
-  article section h1 {
-    font-size: 1.375rem; } }
-@media all and (min-width: 56.7rem) {
+    padding: 0; } }
+@media all and (min-width: 52.5rem) {
   header h1 {
     font-size: 3.75977rem !important; }
   header h2 {
-    font-size: 1.08rem !important; }
+    font-size: 1.125rem !important; }
   header h2::before {
     width: 22rem; }
   header nav {
     padding-top: 3.1rem;
-    font-size: 1.056rem; }
+    font-size: 1.1rem; }
     header nav a.item {
       padding: 0 1rem; } }
 @media all and (min-width: 67.2rem) {
