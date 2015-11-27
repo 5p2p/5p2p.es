@@ -1,7 +1,10 @@
 - image credit
+
 - sections must h2 (##)
-- Further readings must be h2 inside a new section.
+
+- "Further readings" must be h2 inside a new section. Put all links in the yaml front-matter
+
 - clean unused fonts
 - download fonts amd use them locally
-- translate menu
+
 - translate dates
