@@ -2,6 +2,8 @@
 title: La felicidad es una elección
 author: ruvido
 image: la-felicidad-es-una-eleccion.jpg
+date: 16-11-2015
+---
 
 Te afanas tanto en buscarla y, sin embargo, queda lejos de ti. La deseas, pero no te comportas como si la quisieras. La ves en los otros, la sueñas, la vives por un momento, para después perderla de nuevo por una tontería. Más allá de las fantasías, a la pregunta “¿qué es lo que más deseas en tu vida?”, todos respondemos “ser felices”. Pues ha llegado el momento de elegir serlo. Continúa leyendo.
 

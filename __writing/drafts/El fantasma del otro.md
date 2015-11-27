@@ -2,6 +2,7 @@
 title: El fantasma del otro (la histórica ex)
 author: ruvido
 image: el-fantasma-del-otro.jpg
+date: 9-11-2015
 ---
 
 Estás soltero/a.  Te mueves, hablas, conoces gente... hasta que encuentras a una persona maravillosa y te dices a ti mismo/a que ésta vez es la buena. Y te lanzas. Pero, ¿estás realmente preparado/a para ello?
