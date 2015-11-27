@@ -82,14 +82,15 @@ a {
   position: relative;
   color: $light_key_color;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 a:hover {
   color: $light_key_color;
 }
 
-a:before {
+// nav a:before {
+a.link-scale-effect::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -104,12 +105,22 @@ a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:hover:before {
+a.link-scale-effect:hover::before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
+// blockquote::before{
+  // content: "";
+// }
+//   @extend .small-bar;
+//   margin: 2rem auto 1rem auto !important;  
+// }
+// blockquote::after {
+//   @extend .small-bar;
+//   margin: 2rem auto !important;
+// }
 blockquote{
   p{
     // padding:0 !important; 
@@ -225,6 +236,10 @@ article{
     text-align: center;
   }
 
+  section.post-title.no-bar::before {
+    height: 0;
+    margin: 0 auto;
+  }
   section.post-title::before {
     @extend .small-bar;
   }
@@ -232,9 +247,40 @@ article{
   //   @extend .small-bar;
   // }
 
+// a.caz { 
+//   color: $text_color; 
+//   color: red; 
+//   font-weight: 800 !important;
+//   font-size: 28px;
+//   @extend .sans;
+// }
+// a:hover{ color: $light_key_color;}
+
+
+.caz{
+      content: '\2022';
+      height: 2rem;
+      width: 2rem;
+}
+ 
+
   section.post-title{
-    padding: 1rem $mobile_padding;
+    padding: 1rem 2*$mobile_padding;
     p {padding: 0;}
+    h1 {
+      // padding: 0;
+      // margin: 0;
+      a {font-weight: 800; color: $text_color;}
+      a:hover {color: $light_key_color;}
+    }
+    h1::before {
+      // margin:0;padding: 0;
+      content: '\2022';
+      font-size: $h2_size;
+      vertical-align:-$h2_size/100;
+      padding-right:1rem;
+      color: $light_key_color;
+    }
   }
 
   h1 {font-size: $scale_big*$pg_size; padding: 0;}
