@@ -9,7 +9,7 @@ image: come-ti-realizzi-nella-vita.jpg
     <h1><a href="{{page.url}}">{{page.title}}</a></h1>
     <p class="script-text">
     <span class="author"><a class="link-scale-effect" href="{{site.about}}">{% include authors.html %}</a></span>
-    <span class="date">{% include dates_ita.html %}</span>
+    <span class="date">{% include dates_{{site.language}}.html %}</span>
     </p>
     {% if post.tag %}
     <div class="tags">

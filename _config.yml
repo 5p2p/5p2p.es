@@ -2,11 +2,12 @@
 # Blog infos
 # ---------------------------------------------------------
 name: 5pani2pesci
-subname: Avventure di provvidenza quotidiana
+subname: Aventuras de la providencia diarias
 description: 5p2p en español
 metadata: [matrimonio, cristiano, amor]
 url: http://5p2p.es
-about: /chi-siamo
+# about: /chi-siamo
+language: es
 
 # ---------------------------------------------------------
 # Devel --# comment on production phase!
@@ -42,23 +43,23 @@ menu:
 
   - title: "Blog"
     href: "/blog"
-    class: ballon1
+    class: 
 
-  - title: "Corsi"
-    href: "/corsi"
-    class: ballon2
+  - title: "Cursos"
+    href: "/cursos"
+    class: 
 
-  - title: "Libri"
-    href: "/libri"
-    class: ballon3
+  - title: "Libros"
+    href: "/libros"
+    class: 
 
-  - title: "Fotografia"
+  - title: "Bodas"
     href: "http://weddings.5p2p.it"
-    class: ballon4
+    class: 
 
-  - title: "Donazioni"
-    href: "/donazioni"
-    class: donazioni
+  - title: "Donaciones"
+    href: "/donaciones"
+    class: donations
 
   # - title: "Scrivici"
   #   href: "/scrivici"
@@ -72,11 +73,11 @@ menu:
 # ---------------------------------------------------------
 footer_menu:
 
-  - title: "Chi siamo"
-    href: "/chi-siamo"
+  - title: "Sobre nosostros"
+    href: "/sobre-nosotros"
 
-  - title: "Scrivici"
-    href: "/scrivici"
+  - title: "Escríbanos"
+    href: "/escribanos"
 
   - title: "Facebook"
     href: "https://www.facebook.com/es5p2p" # controlla!

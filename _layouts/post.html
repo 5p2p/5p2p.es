@@ -18,7 +18,7 @@
 
     <nav>
         {% for link in site.menu %} 
-            <a class="item {{link.title}} link-scale-effect" href="{{link.href}}">{{link.title}}</a> 
+            <a class="item {{link.class}} link-scale-effect" href="{{link.href}}">{{link.title}}</a> 
         {% endfor %}
     </nav>
 
@@ -44,7 +44,7 @@
         <h1 class="">{{page.title}}</h1>
         <p class="script-text">
         <span class="author"><a class="link-scale-effect" href="{{site.about}}">{% include authors.html %}</a></span>
-        <span class="date">{% include dates_ita.html %}</span>
+        <span class="date">{% include dates_{{site.language}}.html %}</span>
         </p>
     </section>
     {% endunless %}

@@ -1,14 +1,9 @@
 ---
-title: Previews
-permalink: previews/
-type: index
+title: Archivo de artículos
+permalink: blog/
 ---
 
-
-<div class="small-bar" style="margin-top:-1rem;"></div>
-
-{% for page in site.pages %}
-{% if page.preview %}
+{% for page in site.posts %}
 <section class="post-title no-bar">
     <h1><a href="{{page.url}}">{{page.title}}</a></h1>
     <p class="script-text">
@@ -23,7 +18,5 @@ type: index
     {% endfor %}
     </div>
     {% endif %}
-    [Edit]
 </section>
-{% endif %}
 {% endfor %}

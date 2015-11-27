@@ -116,7 +116,7 @@ header {
       color: #393531;
       padding: 0 0.4rem;
       font-weight: 300; }
-    header nav a.donazioni, header nav a.Donazioni {
+    header nav a.donations, header nav a.Donazioni {
       font-weight: 600; }
   header nav::before {
     margin: 0.8rem auto 0 auto !important; }

@@ -1,0 +1,4 @@
+---
+title: Cursos
+permalink: cursos/
+---
