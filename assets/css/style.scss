@@ -364,6 +364,7 @@ $biggest_break: $big_break*$scale_big;
 
   #logo {float: left; width: 5.2rem; margin: 2rem 0.4rem;}
   header {
+    a, a:hover {color: $text_color;}
     section {float: left; text-align: left; padding: 2rem 0rem ;}
     h1,h2,nav{margin:0 auto; padding:0;}
     h2::before{

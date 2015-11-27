@@ -251,6 +251,8 @@ article section.alert::after, article section.post-title::before {
     width: 5.2rem;
     margin: 2rem 0.4rem; }
 
+  header a, header a:hover {
+    color: #393531; }
   header section {
     float: left;
     text-align: left;

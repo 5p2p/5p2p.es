@@ -1,8 +1,9 @@
 ---
 title: {{site.title}}
 ---
-
+x
 {% for post in site.posts %}
+caz
 
 <div class="postTitle"><a href="{{ post.url }}">{{ post.title }}</a></div>
 <div class="postStats"><i class="fa fa-clock-o"></i>{% include dates_ita.html %}
