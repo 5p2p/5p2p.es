@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
-require 'the_jekyll_editor'
+# require 'the_jekyll_editor'
+require '/Users/ruvido/Dropbox/development/the_jekyll_editor/lib/the_jekyll_editor'
 
 # ===================
 # CONFIGURATION
