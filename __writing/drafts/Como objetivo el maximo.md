@@ -2,6 +2,7 @@
 title: Como objetivo el máximo
 author: alescanca
 date: 26-10-2015
+publish: ok
 ---
 
 Hoy una querida amiga mía española comentaba mi tercera y bellísima barriga apostrofando que sólo los rumanos, "los moros" y los gitanos llegan al tercer hijo, pero "Ahí estáis también vosotros y realmente no os entiendo”. La gente normal, las personas con sentido común, se dan cuenta de que hoy, sobre todo con esta crisis, un hijo ya es mucho, dos para los más valientes. Y además, “es siempre mejor tener un hijo y darle todo, que tener muchos y no poder ofrecerles muchas oportunidades”.
