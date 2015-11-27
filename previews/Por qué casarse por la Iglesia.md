@@ -3,6 +3,7 @@ title: ¿Por qué casarse por la Iglesia?
 author: alescanca
 image: por-que-casarse-por-la-iglesia.jpg
 date: 23-11-2015
+preview: ok
 ---
 
 ¿Por qué casarse por la Iglesia? ¿Por qué organizar toda esa ceremonia? ¿No basta con quererse mucho, ponerse un vestido blanco, un hermoso ramo y ofrecer unos pasteles? ¡Si el matrimonio no es otra cosa que un contrato entre un hombre y una mujer, ¿no?!

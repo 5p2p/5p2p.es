@@ -34,7 +34,7 @@
 
     <!-- <section class="alert"><p>{{page.alert}}</p></section> -->
 
-
+    {% unless page.type == "index" %}
     <section class="post-title">
         <h1 class="">{{page.title}}</h1>
         <p class="script-text">
@@ -42,6 +42,7 @@
         <span class="date">{% include dates_ita.html %}</span>
         </p>
     </section>
+    {% endunless %}
 
     
     {% if page.description %}

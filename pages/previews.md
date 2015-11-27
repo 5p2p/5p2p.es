@@ -1,10 +1,11 @@
 ---
 title: Previews
 permalink: previews/
+type: index
 ---
 
-{% for page in site.posts %}
-{% if post.preview %}
+{% for page in site.pages %}
+{% if page.preview %}
 <section class="post-title">
     <h1 class="">{{page.title}}</h1>
     <p class="script-text">

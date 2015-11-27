@@ -1,5 +1,7 @@
 ---
-title: {{site.title}}
+title: 5pani2pesci
+type: index
+image: come-ti-realizzi-nella-vita.jpg
 ---
 
 {% for page in site.posts %}
