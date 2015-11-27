@@ -23,7 +23,11 @@
     </nav>
 
     {% if page.image %}
-        <img id="splash" alt="{{page.title}}" src="{{site.baseurl}}{{site.images}}/{{page.image}}">
+        {% if page.preview %}
+            <img id="splash" alt="{{page.title}}" src="{{site.baseurl}}{{site.previews}}/{{page.image}}">
+        {% else %}
+            <img id="splash" alt="{{page.title}}" src="{{site.baseurl}}{{site.images}}/{{page.image}}">
+        {% endif %}
     {% else %}
         <div class="clearfix"></div>
     {% endif %}

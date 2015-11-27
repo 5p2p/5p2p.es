@@ -149,10 +149,6 @@ article section.alert {
 article section.post-title.no-bar::before {
   height: 0;
   margin: 0 auto; }
-article .caz {
-  content: '\2022';
-  height: 2rem;
-  width: 2rem; }
 article section.post-title {
   padding: 1rem 2rem; }
   article section.post-title p {
