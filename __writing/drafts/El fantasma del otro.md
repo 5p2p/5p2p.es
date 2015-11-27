@@ -2,6 +2,7 @@
 title: El fantasma del otro (la histórica ex)
 author: ruvido
 image: el-fantasma-del-otro.jpg
+slug: el-fantasma-del-otro
 date: 9-11-2015
 ---
 
