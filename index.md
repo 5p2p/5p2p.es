@@ -5,7 +5,7 @@ image: come-ti-realizzi-nella-vita.jpg
 ---
 
 {% for page in site.posts %}
-<section class="post-title">
+<section class="post-title no-bar">
     <h1><a href="{{page.url}}">{{page.title}}</a></h1>
     <p class="script-text">
     <span class="author"><a class="link-scale-effect" href="{{site.about}}">{% include authors.html %}</a></span>
