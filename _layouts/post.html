@@ -22,7 +22,11 @@
         {% endfor %}
     </nav>
 
-    <img id="splash" alt="{{page.title}}" src="{{site.baseurl}}{{site.images}}/{{page.image}}">
+    {% if page.image %}
+        <img id="splash" alt="{{page.title}}" src="{{site.baseurl}}{{site.images}}/{{page.image}}">
+    {% else %}
+        <div class="clearfix"></div>
+    {% endif %}
 
 </header>
 

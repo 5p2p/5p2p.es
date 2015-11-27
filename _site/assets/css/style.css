@@ -92,6 +92,8 @@ blockquote {
 header {
   padding-top: 1rem;
   text-align: center; }
+  header a, header a:hover {
+    color: #393531; }
   header section {
     padding: 0; }
     header section h1, header section h2 {
@@ -206,6 +208,10 @@ article section.alert::after, article section.post-title::before {
   background-color: #eee;
   margin: 2rem auto; }
 
+.clearfix {
+  clear: both;
+  display: block; }
+
 /* Coolors Exported Palette - coolors.co/ed6a5a-f4f1bb-9bc1bc-5ca4a9-e6ebe0 */
 .ballon1 {
   color: white !important;
@@ -251,8 +257,6 @@ article section.alert::after, article section.post-title::before {
     width: 5.2rem;
     margin: 2rem 0.4rem; }
 
-  header a, header a:hover {
-    color: #393531; }
   header section {
     float: left;
     text-align: left;

@@ -110,16 +110,6 @@ a:hover:before {
   transform: scaleX(1);
 }
 
-// blockquote::before{
-  // content: "";
-// }
-//   @extend .small-bar;
-//   margin: 2rem auto 1rem auto !important;  
-// }
-// blockquote::after {
-//   @extend .small-bar;
-//   margin: 2rem auto !important;
-// }
 blockquote{
   p{
     // padding:0 !important; 
@@ -148,6 +138,7 @@ blockquote{
 // SPECIFIC ELEMENTS
 
 header {
+  a, a:hover {color: $text_color;}
   padding-top: $mobile_padding;
   text-align: center;
   section {
@@ -318,6 +309,8 @@ footer{
   margin: 2rem auto;
 }
 
+.clearfix{clear: both; display: block;}
+
 // COOLORS STUFF
 /* Coolors Exported Palette - coolors.co/ed6a5a-f4f1bb-9bc1bc-5ca4a9-e6ebe0 */
 
@@ -364,7 +357,6 @@ $biggest_break: $big_break*$scale_big;
 
   #logo {float: left; width: 5.2rem; margin: 2rem 0.4rem;}
   header {
-    a, a:hover {color: $text_color;}
     section {float: left; text-align: left; padding: 2rem 0rem ;}
     h1,h2,nav{margin:0 auto; padding:0;}
     h2::before{

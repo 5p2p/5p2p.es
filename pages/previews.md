@@ -1,8 +1,10 @@
 ---
-title: {{site.title}}
+title: Previews
+permalink: previews/
 ---
 
 {% for page in site.posts %}
+{% if post.preview %}
 <section class="post-title">
     <h1 class="">{{page.title}}</h1>
     <p class="script-text">
@@ -18,4 +20,5 @@ title: {{site.title}}
     </div>
     {% endif %}
 </section>
+{% endif %}
 {% endfor %}
