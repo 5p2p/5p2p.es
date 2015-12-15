@@ -1,6 +1,6 @@
 ---
 title: Dios nos ha hecho únicos y súper geniales
-preview: ok
+publish: ok
 image: dios-nos-ha-hecho-unicos-y-super-geniales.png
 slug: dios-nos-ha-hecho-unicos-y-super-geniales
 date: 15-12-2015
@@ -49,7 +49,7 @@ He escrito todo esto para decir que **la verdad sobre tu vida te la dice sólo D
 No importa en qué situación te encuentres hoy en la vida. Ya sea que estás casado/a y tienes cinco hijos, o que no entiendes nada, no importa –ve delante de Dios– ponte en Su presencia, ten paciencia y perseverancia, búscaLo en tu corazón como ha hecho San Agustín y encontrarás el camino.
 
 > No temas, ¡basta que tengas fe! <cite>Mc 5,36</cite>
-
+> 
 
 Repito, en mi opinión, ¡Dios nos ha hecho únicos y súper geniales! 
 
