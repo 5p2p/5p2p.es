@@ -23,6 +23,12 @@ p, ul, ol, li, h1, h2, h3, h4 {
   margin: 0 auto;
   max-width: 40rem; }
 
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: 700; }
+
 h1, h2, h3, h4 {
   font-family: 'Open Sans', sans-serif;
   padding: 1.1rem 1rem 0.6rem 1rem;

@@ -49,6 +49,9 @@ p, ul, ol, li, h1,h2,h3,h4 {
   max-width: $column_max_width;
 }
 
+em {font-style: italic;}
+strong {font-weight: 700;}
+
 h1,h2,h3,h4{
   font-family: 'Open Sans', sans-serif;
   padding: 1.1rem $mobile_padding 0.6rem $mobile_padding;
