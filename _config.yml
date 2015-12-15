@@ -45,21 +45,31 @@ menu:
     href: "/blog"
     class: 
 
-  - title: "Cursos"
-    href: "/cursos"
-    class: 
+ - title: "Sobre nosostros"
+    href: "/sobre-nosotros"
 
-  - title: "Libros"
-    href: "/libros"
-    class: 
+  - title: "Escríbanos"
+    href: "https://www.facebook.com/es5p2p"
+    # href: "/escribanos"
 
-  - title: "Bodas"
-    href: "http://weddings.5p2p.it"
-    class: 
+  - title: "Facebook"
+    href: "https://www.facebook.com/es5p2p"
 
-  - title: "Donaciones"
-    href: "/donaciones"
-    class: donations
+  # - title: "Cursos"
+  #   href: "/cursos"
+  #   class: 
+
+  # - title: "Libros"
+  #   href: "/libros"
+  #   class: 
+
+  # - title: "Bodas"
+  #   href: "http://weddings.5p2p.it"
+  #   class: 
+
+  # - title: "Donaciones"
+  #   href: "/donaciones"
+  #   class: donations
 
   # - title: "Scrivici"
   #   href: "/scrivici"
