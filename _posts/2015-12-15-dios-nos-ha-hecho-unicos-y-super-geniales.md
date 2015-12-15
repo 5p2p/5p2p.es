@@ -4,6 +4,7 @@ publish: ok
 image: dios-nos-ha-hecho-unicos-y-super-geniales.png
 slug: dios-nos-ha-hecho-unicos-y-super-geniales
 date: 15-12-2015
+author: alescanca
 ---
 
 ¿Qué guión has decidido seguir en la vida? ¿En qué senda prefabricada estás invirtiendo tus energías? -¡Tú eres importante! ¡En nombre de Cristo, sé tú mismo/a!
