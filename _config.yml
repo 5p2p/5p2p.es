@@ -1,6 +1,7 @@
 # ---------------------------------------------------------
 # Blog infos
 # ---------------------------------------------------------
+
 name: 5pani2pesci
 subname: Aventuras de la providencia diarias
 description: 5p2p en español
@@ -46,15 +47,18 @@ menu:
     href: "/blog"
     class: 
 
- - title: "Sobre nosostros"
+  - title: "Sobre nosostros"
     href: "/sobre-nosotros"
+    class: 
 
   - title: "Escríbanos"
     href: "https://www.facebook.com/es5p2p"
+    class: 
     # href: "/escribanos"
 
   - title: "Facebook"
     href: "https://www.facebook.com/es5p2p"
+    class: 
 
   # - title: "Cursos"
   #   href: "/cursos"
