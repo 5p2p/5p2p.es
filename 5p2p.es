@@ -39,5 +39,22 @@ myblog=Blogdata.new( idump, iblog )
   puts '--------------------------------'
 end
 
+if 1
+
+  # date = DateTime.now
+  date = Time.now
+  today=date.strftime("%d-%m-%Y")
+  # Dir.chdir iblog
+  f = File.open("#{iblog}/today", "w+")
+  f.puts today
+  f.close
+
+end
+
 # sleep 1
-myblog.push
+# myblog.push
+
+Dir.chdir iblog
+`git add --all .`
+`git commit -a -m 'commit'`
+`git push`
