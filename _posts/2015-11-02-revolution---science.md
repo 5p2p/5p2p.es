@@ -2,7 +2,7 @@
 title: Revolution | Science
 author: ruvido
 date: 2-11-2015
-preview: ok
+publish: ok
 ---
 
 Cuando vi la pasión que movía a mis colegas a combatir enfermedades mortales como el cáncer, el sida y el Alzheimer, me quedé sin habla. Admiraba su empuje pero al mismo tiempo veía que a mí me faltaba esa misma motivación. Por absurdo que pueda parecer, pensaba que la inevitabilidad de la muerte era más importante y por lo tanto, prolongar la vida unos años tenía sólo un valor relativo. Evidentemente está bien aliviar el dolor, usar la medicina de forma racional para curar. Pero la cuestión no es ésa.
