@@ -2,7 +2,7 @@
 title: ¿Cómo sobrevivir a un noviazgo a distancia?
 author: ruvido
 date: 22-12-2015
-preview: ok
+publish: ok
 slug: como-sobrevivir-a-un-noviazgo-a-distancia
 image: sopravvivere-ad-un-fidanzamento-a-distanza.jpg
 ---
