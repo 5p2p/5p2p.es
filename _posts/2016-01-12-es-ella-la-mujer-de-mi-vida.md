@@ -3,7 +3,7 @@ author: ruvido
 image: noi-scalata.jpg
 title: ¿Es ella la mujer de mi vida?
 permalink: es-ella-la-mujer-de-mi-vida
-date: 13-1-2016
+date: 12-1-2016
 publish: ok
 ---
 
