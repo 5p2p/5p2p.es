@@ -16,7 +16,7 @@ La felicidad no depende de los acontecimientos de la vida, de tu éxito, de tus 
 
 También yo estaba envuelto en la tristeza cuando escuché por primera vez estas palabras:
 
-> Alegraos siempre en el Señor, el Señor está cerca, no os angustiéis por nada. (Flp 4,4-6)
+> Alegraos siempre en el Señor, el Señor está cerca, no os angustiéis por nada. <cite>(Flp 4,4-6)</cite>
 
 Pablo usa el imperativo **alegraos**. No es un consejo, una sugerencia - ¡es una orden! Es una elección que hacer. Así también le fue dicho a Ezequiel:
 
