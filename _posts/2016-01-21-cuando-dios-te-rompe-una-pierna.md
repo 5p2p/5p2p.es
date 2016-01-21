@@ -1,7 +1,7 @@
 ---
 title: Cuando Dios te rompe una pierna
 author: ruvido
-image: frattura.jpg
+image: cuando-dios-te-rompe-una-pierna.jpg
 date: 21-01-2016
 publish: ok
 ---
