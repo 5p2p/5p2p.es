@@ -6,7 +6,7 @@ date: 21-01-2016
 publish: ok
 ---
 
-O lo que es lo mismo, la acción constante y amorosa de un Padre que nos quiere ver crecer en el amor
+O lo que es lo mismo, la acción constante y amorosa de un Padre que nos quiere ver crecer en el amor.
 
 "*No cambies nunca*" es una frase famosísima, pronunciada en los momentos más bellos y románticos de una relación… pero si lo piensas bien, ¿es realmente algo bueno?  ¡Caray, no se lo desearía ni a mi peor enemigo! El hombre muestra inclinación por el dinamismo, busca, explora nuevas tierras e ideas. La realidad es que el hombre cambia y con razón.
 
