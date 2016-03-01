@@ -3,7 +3,7 @@ title: ¡Qué prisa había!
 author: alescanca
 image: que-prisa-habia.jpg
 date: 1-3-2016
-preview: ok
+publish: ok
 ---
 
 Recuerdo todavía a mi padre cuando descubrió mi anillo de compromiso comprado con Francesco en la Tiburtina e intercambiado con gran secreto, al modo de Renzo y Lucia, ante fray Massimo en la Porciúncula.  Estábamos en la mesa cuando mi padre, destrozado a la vista de aquel anillo, comenzó un serio discurso de padre a hija. Buscando comprender el significado de aquel anillo, comenzó a hablar sobre lo importante que es la familia, cómo los valores que él y mi madre me habían transmitido eran los verdaderos cimientos de la vida y cómo era de alabar que yo y Francesco fuésemos en serio, PERO…:
