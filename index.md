@@ -1,7 +1,7 @@
 ---
 title: 5pani2pesci
 type: index
-image: come-ti-realizzi-nella-vita.jpg
+image: caminando-se-hace-el-camino.jpg
 ---
 
 {% for page in site.posts %}
